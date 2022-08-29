@@ -1,0 +1,160 @@
+.container {
+    border: none;
+    width: 1090px;
+    margin: 0 auto;
+    height: 1200px;
+}
+
+.header {
+    height: 100px;
+    padding: 10px 0;
+}
+
+#brand {
+    float: left;
+}
+
+h1 a {
+    font-size: 55px;
+    color: purple;
+    text-decoration: none;
+
+}
+
+.form {
+    width: 400px;
+    height: 50px;
+    float: right;
+    background: linear-gradient(#E4F2B9, #B7E953);
+    padding: 20px 20px 0 20px;
+    margin-top: 20px;
+
+}
+
+.text {
+    height: 20px;
+    width: 200px;
+    font-size: 15px;
+    color: orange;
+    box-shadow: 3px 3px 5px black;
+}
+
+.search {
+    height: 25px;
+    font-weight: bold;
+    background-color: purple;
+    color: white;
+
+}
+
+.menu {
+    height: 70px;
+    padding: 7px 0;
+    background: linear-gradient(#F8F594, #D5D533);
+
+}
+
+
+
+.list {
+    display: flex;
+    list-style: none;
+}
+
+
+
+.list li a {
+    text-decoration: none;
+    padding: 0 30px;
+    font-size: 20px;
+    color: purple;
+    height: 30px;
+    line-height: 30px;
+}
+
+.box {
+    border: none;
+    height: 546px;
+}
+
+
+
+.list li a:hover,
+.list li a:active {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(252, 37, 88);
+}
+
+.introduction {
+    background: linear-gradient(#E5F2BB, #B7E952);
+    height: 210px;
+    padding: 35px;
+    margin: 16px 0;
+}
+
+.introduction h3 {
+    font-size: 40px;
+    color: #316901;
+    font-weight: normal;
+}
+
+.introduction p {
+    font-size: 23px;
+    color: #316901;
+    text-align: justify;
+}
+
+.sidebar {
+
+    height: 500px;
+    width: 400px;
+    border: 2px solid #BAF46F;
+    border-radius: 20px;
+    padding: 10px 30px;
+
+}
+
+.sidebar h3 {
+    color: purple;
+    font-size: 40px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    font-size: 25px;
+    color: purple;
+}
+
+.sidebar ul li a:hover {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(252, 37, 88);
+}
+
+#leftsidebar {
+    float: left;
+
+
+}
+
+#rightsidebar {
+    float: right;
+
+}
+
+.footer {
+    height: 60px;
+    color: purple;
+    font-size: 20px;
+    background: linear-gradient(#F6F390, #D5D533);
+    padding: 10px 30px;
+
+}
+
+#formula {
+    color: purple;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    padding-top: 5px;
+}
